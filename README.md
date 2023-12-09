@@ -9,7 +9,7 @@ It includes all of the required html, css, and javascript files.
 -- Running the Site --
 
 Running the site through Glitch URL: 
-1. click on the link to run the glitch site
+1. click on the link to run the glitch site: https://slow-elemental-loganberry.glitch.me
 
 Running the site though Live Server: 
 1. extract the zip file 
