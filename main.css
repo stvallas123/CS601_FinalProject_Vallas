@@ -1,0 +1,206 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #f1f9eb;
+}
+
+header{
+    text-align: center;
+    background: url("./images/background.jpg") 100% no-repeat;
+    background-color: #68B332;
+    background-position: center;
+    height: 350px;
+    margin: 0;
+}
+
+#titleName{
+    color:#9DD874;
+    font-weight: bold;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+}
+
+#menuButton {
+
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #1C3509;
+    border-radius: 4px;
+    width: 120px;
+    background-color: #1C3509;
+    padding: 5px;
+    color:#9DD874;
+}
+
+#menuButton:hover{
+    color: #f1f9eb;
+    box-shadow: 0 0 20px #9DD874;
+}
+
+
+#headshot{
+    width: 15%;
+}
+
+#sectionTitle{
+    color: black;
+    background-color: #1C3509;
+    border: 2px solid #1C3509;
+    text-align: center;
+    color: #9DD874;
+}
+
+#flexSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+@media (max-width: 700px) {
+    #flexSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+}
+
+footer{
+    margin: 25px;
+    text-align: center;
+    background-color: #1c3509;
+    box-shadow: 0 0 20px #1c3509;
+    padding: 5px;
+    color: #9dd874;
+}
+
+#splitSection{
+    justify-content: center;
+}
+
+#collegeImg{
+    height: 150px;
+    width: 200px;
+}
+
+#collegeImg2{
+    height: 150px;
+    width: 200px;
+}
+
+#watchDescription{
+    max-width: 600px;
+}
+
+table {
+    margin: 5px;
+    border: 1px solid;
+    width: 50%;
+    box-shadow: 0 0 20px #1c3509;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 5px;
+  }
+  tr:nth-child(odd) 
+  {
+    background-color: #f1f9eb;
+    color: #1C3509;
+
+  }
+  tr:nth-child(even) 
+  {
+    background-color: #9DD874;
+    color:#1C3509;
+  }
+
+  #jalenHurtsPic{
+    width: 400px;
+  }
+
+  #container{
+    margin: 60px;
+    height: 700px;
+    width:700px;
+    text-align: center;
+  }
+
+  .numbertext {
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+  }
+
+  #PreviousButtons{
+    cursor: pointer;
+    color: #1C3509;
+    font-weight: bold;
+    border: 1px solid #1C3509;
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+
+  }
+
+  #NextButtons{
+    cursor: pointer;
+    color: #1C3509;
+    font-weight: bold;
+    border: 1px solid #1C3509;
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+  }
+
+  .PanelButton:hover{
+    background-color: #68B332;
+    box-shadow: 0 0 20px #9DD874;
+  }
+
+  .caption {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .panels{
+    display: none;
+  }
+
+  .InteractiveButton{
+    background-color:#9dd874;
+    border: 1px solid #1C3509;
+    color: #1C3509;
+
+    margin: 15px;
+  }
+
+  .InteractiveButton:hover{
+        background-color:#3A631C;
+        border: 1px solid #3A631C;
+        color: #f1f9eb;        
+        box-shadow: 0 0 20px #9DD874;
+  }
+  
+  #dogFacts{
+    text-align: center;
+    padding: 3px;
+  }

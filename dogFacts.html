@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stavros AutoBiography Site</title>
+    <link  rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+    <script src="./scripts/dogFacts.js"></script>
+</head>
+<body>
+    <header id="vueHeader">
+        <vue-header></vue-header>
+    </header>
+    <script type="module" src="./scripts/vueHeader.js"></script>
+    <main>
+        <section id="dogFacts">
+            <h1 id="sectionTitle">Dog Facts</h1>
+            <div>
+                <article>
+                    <p>This page is linked to a API that will produce a random dog fact each time the button is pressed!</p>
+                    <input type="button" class="InteractiveButton" value="Dispay new fact" onclick="getDogFact()">
+                    <!-- display a slideshow of dog photos, maybe some paw print background image -->
+                </article>
+                <div id="apiResult"></div>
+            </div>
+        </section>
+    </main>
+    <footer>&copy; 2023. Stavros Vallas. Open Source. </footer>
+</body>
+</html>
